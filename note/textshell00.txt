@@ -1,0 +1,17 @@
+truncate -s 40 filename // size
+touch -a -m -t  yearmonthdaytime filename // date
+chmod 455 filename 
+
+tar -cf testShell00.tar testShell00
+
+///////////////////
+create hard link ; 
+ln test3 test5 
+create soft link
+ln -ss test0 test6
+change time soft link
+touch -h -t date nameoffile
+//decompresser
+tar -xvf file.tar
+
+
